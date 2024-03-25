@@ -1,0 +1,9 @@
+# Pipeline example
+version: v1.0
+name: build
+jobs:
+- job: run
+  stage: Stage 1
+  steps:
+  - script:
+    - echo "I'm the first step"
