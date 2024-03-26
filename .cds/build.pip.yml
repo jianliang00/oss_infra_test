@@ -10,3 +10,4 @@ jobs:
   steps:
   - script:
     - echo "I'm the first step"
+    - echo "I'm the next step"
