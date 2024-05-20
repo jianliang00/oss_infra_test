@@ -1,0 +1,8 @@
+version: v1.0
+name: HelloWorld
+description: Hello World Action
+group: shared.infra
+steps:
+- name: Initialization
+  script:
+  - echo "Hello World"
