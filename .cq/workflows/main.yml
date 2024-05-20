@@ -1,0 +1,6 @@
+# Example of workflow
+name: myWorkflow
+version: v2.0
+workflow:
+  myBuild:
+    pipeline: build
