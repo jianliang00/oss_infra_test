@@ -1,0 +1,14 @@
+# Pipeline example
+version: v1.0
+name: build
+jobs:
+- job: run
+  stage: Stage 1
+  requirements:
+  - binary: git
+  - os-architecture: darwin/amd64
+  steps:
+  - script:
+    - echo "I'm the first step"
+    - echo "I'm the next step"
+  - HelloWorld:
