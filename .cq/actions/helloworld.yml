@@ -1,7 +1,7 @@
 version: v1.0
 name: HelloWorld
 description: Hello World Action
-group: shared.infra
+group: gitlab_oss_infra_test
 steps:
 - name: Initialization
   script:
