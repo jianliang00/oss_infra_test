@@ -1,5 +1,5 @@
 # Example of workflow
-name: myWorkflow
+name: buildOnGithub
 version: v2.0
 workflow:
   myBuild:
